@@ -11,7 +11,7 @@ double calculateBMI(double weight, double height) {
     return bmi;
 }
 
-// this function is usd to to categorize and display BMI based on WHO standards
+// this function is used to to categorize and display BMI based on WHO standards
 void displayBMIResult(double bmi) {
     cout << "BMI: " << bmi << " - ";
     if (bmi < 18.5) {
