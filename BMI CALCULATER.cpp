@@ -6,7 +6,7 @@ double calculateBMI(double weight, double height) {
     // this code is used to Convert height from centimeters to meters
     double heightInMeters = height / 100.0;
 
-    // Calculate BMI
+    // this is used to Calculate BMI
     double bmi = weight / (heightInMeters * heightInMeters);
     return bmi;
 }
